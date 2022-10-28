@@ -1,0 +1,17 @@
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.deps.json
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\bin\Debug\net5.0\Persistence.pdb
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.AssemblyReference.cache
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\obj\Debug\net5.0\refint\Persistence.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.pdb
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\bin\Debug\net5.0\Application.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\bin\Debug\net5.0\Domain.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\bin\Debug\net5.0\Application.pdb
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\bin\Debug\net5.0\Domain.pdb
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Infrastructure\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
