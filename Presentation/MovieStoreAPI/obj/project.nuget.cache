@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Tuw38PV4UmUCZWXwAIRMbrsxsJEaYVbeHd84+OWRwotSHXm70CXIx1gDBvfGForQXd4GKVNsTRULJC/52ux3A==",
+  "dgSpecHash": "hNLLE/62EQVD+203js5tJJTMxYMwAhUKkl2gt49+QbYe9qH1UHtb3FkDg1UBeEPUoPzbtMGcmfVD3RlaKdeC4A==",
   "success": true,
-  "projectFilePath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Presentation\\MovieStoreAPI\\MovieStoreAPI.csproj",
+  "projectFilePath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Presentation\\MovieStoreAPI\\MovieStoreAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arda\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.17\\microsoft.aspnetcore.cryptography.internal.5.0.17.nupkg.sha512",
     "C:\\Users\\Arda\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.17\\microsoft.aspnetcore.cryptography.keyderivation.5.0.17.nupkg.sha512",

@@ -844,11 +844,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj",
+      "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj",
+      "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\Arda\\.nuget\\packages\\",
-      "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\obj\\",
+      "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Arda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -865,8 +865,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj"
+            "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Domain\\Domain.csproj"
             }
           }
         }
