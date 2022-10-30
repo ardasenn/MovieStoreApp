@@ -1,6 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Application.Repositories.IActorRepositories;
+using Application.Repositories.ICommentRepositories;
+using Application.Repositories.IDirectorRepositories;
+using Application.Repositories.IGenreRepositories;
+using Application.Repositories.IMovieRepositories;
+using Application.Repositories.IOrderRepositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Persistence.Context;
+using Persistence.Repositories.ActorRepository;
+using Persistence.Repositories.CommentRepository;
+using Persistence.Repositories.DirectorRepository;
+using Persistence.Repositories.GenreRepository;
+using Persistence.Repositories.MovieRepository;
+using Persistence.Repositories.OrderRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +26,18 @@ namespace Persistence
         public static void AddPersistenceServices(this IServiceCollection services)
         {
             services.AddDbContext<MovieDbContext>(options => options.UseInMemoryDatabase("MovieDb"));
-
+            services.AddScoped<IActorReadRepository, ActorReadRepository>();
+            services.AddScoped<IActorWriteRepository, ActorWriteRepository>();
+            services.AddScoped<ICommentReadRepository, CommentReadRepository>();
+            services.AddScoped<ICommentWriteRepository, CommentWriteRepository>();
+            services.AddScoped<IDirectorReadRepository, DirectorReadRepository>();
+            services.AddScoped<IDirectorWriteRepository, DirectorWriteRepository>();
+            services.AddScoped<IGenreReadRepository, GenreReadRepository>();
+            services.AddScoped<IGenreWriteRepository, GenreWriteRepository>();
+            services.AddScoped<IMovieReadRepository, MovieReadRepository>();
+            services.AddScoped<IMovieWriteRepository, MovieWriteRepository>();
+            services.AddScoped<IOrderReadRepository, OrderReadRepository>();
+            services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
         }
     }
 }

@@ -893,11 +893,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Infrastructure\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Persistence\\Persistence.csproj",
+      "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Infrastructure\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\Arda\\.nuget\\packages\\",
-      "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Persistence\\obj\\",
+      "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Infrastructure\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Arda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -914,8 +914,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj": {
-              "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj"
+            "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Application\\Application.csproj": {
+              "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Application\\Application.csproj"
             }
           }
         }
