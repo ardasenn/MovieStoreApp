@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Domain\\Domain.csproj": {}
+    "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Domain\\Domain.csproj": {
+    "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Domain\\Domain.csproj",
+        "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Arda\\.nuget\\packages\\",
-        "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Domain\\obj\\",
+        "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.17, )"

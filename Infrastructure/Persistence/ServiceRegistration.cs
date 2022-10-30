@@ -4,9 +4,14 @@ using Application.Repositories.IDirectorRepositories;
 using Application.Repositories.IGenreRepositories;
 using Application.Repositories.IMovieRepositories;
 using Application.Repositories.IOrderRepositories;
+using Application.Services;
+using Domain.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Persistence.ConcreteServices.CustomerService;
 using Persistence.Context;
+using Persistence.Mapping;
 using Persistence.Repositories.ActorRepository;
 using Persistence.Repositories.CommentRepository;
 using Persistence.Repositories.DirectorRepository;
@@ -16,6 +21,7 @@ using Persistence.Repositories.OrderRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -26,6 +32,17 @@ namespace Persistence
         public static void AddPersistenceServices(this IServiceCollection services)
         {
             services.AddDbContext<MovieDbContext>(options => options.UseInMemoryDatabase("MovieDb"));
+            services.AddIdentity<Customer, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 3;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireDigit = false;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+            }).AddEntityFrameworkStores<MovieDbContext>()
+            .AddDefaultTokenProviders();
+
+            //Repositories
             services.AddScoped<IActorReadRepository, ActorReadRepository>();
             services.AddScoped<IActorWriteRepository, ActorWriteRepository>();
             services.AddScoped<ICommentReadRepository, CommentReadRepository>();
@@ -38,6 +55,10 @@ namespace Persistence
             services.AddScoped<IMovieWriteRepository, MovieWriteRepository>();
             services.AddScoped<IOrderReadRepository, OrderReadRepository>();
             services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
+            //Services
+            services.AddScoped<ICustomerService, CustomerService>();
+            //Mapper
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
         }
     }
 }
