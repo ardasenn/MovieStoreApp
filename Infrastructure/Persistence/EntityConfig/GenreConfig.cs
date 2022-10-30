@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace Persistence.EntityConfig
 {
-    public class OrderConfig : BaseConfig<Order>
+    public class GenreConfig : BaseConfig<Genre>
     {
-        public override void Configure(EntityTypeBuilder<Order> builder)
+        public override void Configure(EntityTypeBuilder<Genre> builder)
         {
+            builder.Property(x => x.Name).IsRequired().HasMaxLength(50);
             builder.Property(a => a.Id).IsRequired();
-            builder.Property(a => a.OrderStatus).IsRequired();            
             base.Configure(builder);
         }
     }

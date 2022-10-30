@@ -13,7 +13,7 @@ namespace Persistence
     {
         public static void AddPersistenceServices(this IServiceCollection services)
         {
-            services.AddDbContext<MovieDbContext>(options => options.UseInMemoryDatabase("MovieStoreDb"));
+            services.AddDbContext<MovieDbContext>(options => options.UseInMemoryDatabase("MovieDb"));
 
         }
     }

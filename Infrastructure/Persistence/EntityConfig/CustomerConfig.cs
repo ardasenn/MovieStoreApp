@@ -13,9 +13,7 @@ namespace Persistence.EntityConfig
         public override void Configure(EntityTypeBuilder<Customer> builder)
         {
             builder.Property(a=>a.FirstName).HasMaxLength(50).IsRequired();
-            builder.Property(a=>a.LastName).HasMaxLength(50).IsRequired();
-            builder.HasMany(a => a.Orders).WithOne(a => a.Customer).HasForeignKey(a => a.Customer.Id);
-            
+            builder.Property(a=>a.LastName).HasMaxLength(50).IsRequired();       
             base.Configure(builder);
         }
     }

@@ -42,3 +42,4 @@ D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net
 D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\Persistence.pdb
 D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\Application.pdb
 D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\Domain.pdb
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\obj\Debug\net5.0\MovieStoreAPI.MvcApplicationPartsAssemblyInfo.cs
