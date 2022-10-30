@@ -11,6 +11,7 @@ using Persistence;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace MovieStoreAPI
@@ -34,6 +35,7 @@ namespace MovieStoreAPI
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MovieStoreAPI", Version = "v1" });
             });
             services.AddPersistenceServices();
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

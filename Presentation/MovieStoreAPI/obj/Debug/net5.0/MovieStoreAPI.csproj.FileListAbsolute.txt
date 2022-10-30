@@ -43,3 +43,9 @@ D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net
 D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\Application.pdb
 D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\Domain.pdb
 D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\obj\Debug\net5.0\MovieStoreAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\AutoMapper.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
