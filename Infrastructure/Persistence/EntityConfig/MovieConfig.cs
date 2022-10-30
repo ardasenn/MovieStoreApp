@@ -16,8 +16,7 @@ namespace Persistence.EntityConfig
             builder.Property(a => a.ReleaseDate).IsRequired();
             builder.Property(a => a.Price).IsRequired();
             builder.Property(a=>a.SalesQuantity).IsRequired();
-            builder.Property(a=>a.Id).IsRequired();
-            builder.HasOne(a=>a.Director).WithMany(a=>a.Movies).HasForeignKey(a=>a.Director.Id);
+            builder.Property(a=>a.Id).IsRequired();          
             base.Configure(builder);
         }
     }

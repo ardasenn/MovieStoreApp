@@ -15,6 +15,7 @@ namespace Domain.Entities
             Actors = new List<Actor>();
             Orders= new List<Order>();
             Genres = new List<Genre>();
+            Comments= new List<Comment>();
         }
         public string Name { get; set; }
         public DateTime ReleaseDate { get; set; }
@@ -22,6 +23,7 @@ namespace Domain.Entities
         public List<Genre> Genres { get; set; }
         public Director Director { get; set; }
         public List<Actor> Actors { get; set; }
+        public List<Comment> Comments { get; set; }
         public decimal Price { get; set; }
         public double Imdb { get; set; }
         public Guid Id { get; set; }
