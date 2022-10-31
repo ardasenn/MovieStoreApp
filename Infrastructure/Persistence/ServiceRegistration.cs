@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Persistence.ConcreteServices.CustomerService;
+using Persistence.ConcreteServices.GenreService;
 using Persistence.Context;
 using Persistence.Mapping;
 using Persistence.Repositories.ActorRepository;
@@ -57,6 +58,7 @@ namespace Persistence
             services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
             //Services
             services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IGenreService, GenreService>();
             //Mapper
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
         }

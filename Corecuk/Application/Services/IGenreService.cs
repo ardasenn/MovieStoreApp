@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application.DTOs.GenreDTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,7 @@ namespace Application.Services
 {
     public interface IGenreService
     {
+        Task<CreateGenreResponse> CreateGenre(CreateGenreDTO model);
+        Task<UpdateGenreResponse> UpdateGenre(UpdateGenreDTO model);
     }
 }

@@ -10,13 +10,18 @@ namespace Domain.Entities
 {
     public class Genre : IEntity
     {
+        public Genre()
+        {
+            Movies = new List<Movie>();
+        }
         public Guid Id { get; set; }
         public string Name { get; set; }
-        public DateTime CreationDate {get;set;}
+        public DateTime CreationDate {get;set;}=DateTime.Now;
         public DateTime? UpdateDate {get;set;}
         public DateTime? DeleteDate {get;set;}
-        public Status Status {get;set;}
+        public Status Status {get;set;}=Status.Active;
+        public List<Movie> Movies { get; set; }
 
-        
+
     }
 }

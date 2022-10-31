@@ -1,6 +1,8 @@
 ﻿using Application.DTOs.CustomerDTOs;
+using Application.DTOs.GenreDTOs;
 using AutoMapper;
 using MovieStoreAPI.Models;
+using MovieStoreAPI.Models.GenreModels;
 
 namespace MovieStoreAPI.MappingProfile
 {
@@ -9,6 +11,8 @@ namespace MovieStoreAPI.MappingProfile
         public VMsProfile()
         {
             CreateMap<CreateCustomerVM, CreateCustomerDTO>();
+            CreateMap<CreateGenreVM, CreateGenreDTO>();
+            CreateMap<UpdateGenreVM, UpdateGenreDTO>();
         }
     }
 }
