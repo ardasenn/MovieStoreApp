@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MvG/BxwmUK/yI/G9fXM9eFBkCIVbNVFyftDgEw3u+FUmSqVgT3f01E6gOaf6J4S+WH1SegcLI3HHPQsdjvzFBQ==",
+  "dgSpecHash": "rIVzSEXR13xGYsQbkSVsFs1Hgn5m8+0wEKDvRAQSi32+dVF0KqXbbcx5X8GBW4OYHSBClniQ9Fclb/Ziygw5ww==",
   "success": true,
   "projectFilePath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Presentation\\MovieStoreAPI\\MovieStoreAPI.csproj",
   "expectedPackageFiles": [
@@ -51,6 +51,7 @@
     "C:\\Users\\Arda\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Arda\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Arda\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\Arda\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Arda\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Arda\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "C:\\Users\\Arda\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
