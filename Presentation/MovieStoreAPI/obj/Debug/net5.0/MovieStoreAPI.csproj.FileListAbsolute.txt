@@ -102,3 +102,8 @@ D:\ARDA D\Arda\YAZILIM\MyProjects\MovieStore\Presentation\MovieStoreAPI\obj\Debu
 D:\ARDA D\Arda\YAZILIM\MyProjects\MovieStore\Presentation\MovieStoreAPI\obj\Debug\net5.0\MovieStoreAPI.pdb
 D:\ARDA D\Arda\YAZILIM\MyProjects\MovieStore\Presentation\MovieStoreAPI\obj\Debug\net5.0\MovieStoreAPI.genruntimeconfig.cache
 D:\ARDA D\Arda\YAZILIM\MyProjects\MovieStore\Presentation\MovieStoreAPI\obj\Debug\net5.0\ref\MovieStoreAPI.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\FluentValidation.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\Infrastructure.dll
+D:\ARDA D\Arda\YAZILIM\MyProjects\Movie\Presentation\MovieStoreAPI\bin\Debug\net5.0\Infrastructure.pdb

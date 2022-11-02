@@ -1,3 +1,4 @@
+using Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -7,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using MovieStoreAPI.Middlewares;
 using Persistence;
 using System;
 using System.Collections.Generic;
@@ -34,7 +36,9 @@ namespace MovieStoreAPI
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "MovieStoreAPI", Version = "v1" });
             });
+           
             services.AddPersistenceServices();
+            services.AddInfrastructureServices();
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
         }
 
@@ -54,6 +58,7 @@ namespace MovieStoreAPI
 
             app.UseAuthorization();
 
+            app.ConfigureCustomExceptionMiddleware();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
