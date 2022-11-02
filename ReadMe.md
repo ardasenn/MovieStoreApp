@@ -34,3 +34,7 @@ Bugün gün olarak 27/10/2022 tarihinde gece vaktinde ilk commiti atıyorum. Yak
 * Architecture uygulamak açıkcası çok fazla canımı sıktı sürekli yeni klasör yeni sınıf cod yazmaya her ne kadar taakatim kalmasa da Customer oluşturmayı sağlıklı bir şekilde bitirdim.
 * Validasyonlar için FluentValidation , Mapleme işlemleri için AutoMapper kütüphanelerini ekledim.
 * Genel olarak bugün code'lamamı daha hızlı yapabilmek için kütüphaneleri ve servislerimi entegre ettim diyebilirim.
+
+## Gün 4
+* Genre service işlemlerini yazdım
+* Şu zamana kadar ben yazdığın kodları ViewModel klasörümü business layer iinde tutuyordum. Bu projede Presentation katmanında tutma kararını aldım. Bence daha geliştirilebilir oldu diyebilirim.

@@ -1,4 +1,5 @@
 ﻿using Application.DTOs.GenreDTOs;
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,6 @@ namespace Application.Services
     {
         Task<CreateGenreResponse> CreateGenre(CreateGenreDTO model);
         Task<UpdateGenreResponse> UpdateGenre(UpdateGenreDTO model);
+        List<Genre> GetAll();
     }
 }

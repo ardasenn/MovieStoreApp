@@ -47,7 +47,6 @@ namespace Persistence.ConcreteServices.GenreService
                 response.Message = Messages.Exist;
             }
             return response;
-
         }
 
         public async Task<UpdateGenreResponse> UpdateGenre(UpdateGenreDTO model)
@@ -82,5 +81,29 @@ namespace Persistence.ConcreteServices.GenreService
             }
             return response;
         }
+        public async Task<DeleteGenreResponse> DeleteGenre(DeleteGenreDTO model)
+        {
+            var genre = await readRepository.GetByIdAsync(model.Id);
+            DeleteGenreResponse response = new();
+            if (genre == null)
+            {
+                response.Succeded = false;
+                response.Message = Messages.NotExist;
+            }
+            else
+            {
+                bool result = writeRepository.Remove(genre);
+                await writeRepository.SaveAsync();
+                if (result)response.Message = Messages.DeleteSucceeded; 
+                else 
+                { response.Succeded = false; response.Message = Messages.Fail; }
+            }
+            return response;
+        }
+
+        public List<Genre> GetAll() => readRepository.GetAll().ToList();
+
+
+
     }
 }
