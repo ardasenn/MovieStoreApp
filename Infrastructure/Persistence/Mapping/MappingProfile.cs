@@ -1,4 +1,5 @@
 ﻿using Application.DTOs.CustomerDTOs;
+using Application.DTOs.GenreDTOs;
 using AutoMapper;
 using Domain.Entities;
 using System;
@@ -15,6 +16,9 @@ namespace Persistence.Mapping
         public MappingProfile()
         {
             CreateMap<CreateCustomerDTO, Customer>();
+            CreateMap<CreateGenreDTO, Genre>();
+            CreateMap<UpdateGenreDTO, Genre>();
+
         }
     }
 }

@@ -1906,11 +1906,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj",
+      "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Arda\\.nuget\\packages\\",
-      "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\obj\\",
+      "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Arda\\AppData\\Roaming\\NuGet\\NuGet.Config",

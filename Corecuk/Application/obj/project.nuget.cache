@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x4uDWJAl/PxNufTZAUfLPCr76kfdQ5/YIjuPHm9yjdu4KDsMbneLtCmz+fI8dAdw/V5pQJ2ZpE5Krxxc2qHX6g==",
+  "dgSpecHash": "09MWxWMOD8njeNuLHKgz4pptfLlKGxeS9PDk3OTdUb+474PEe4BqiuMwGHmhJvBEMWAx3zSKNrs/YvavUM8Ftg==",
   "success": true,
-  "projectFilePath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj",
+  "projectFilePath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Corecuk\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arda\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\Arda\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
