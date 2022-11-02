@@ -38,3 +38,6 @@ Bugün gün olarak 27/10/2022 tarihinde gece vaktinde ilk commiti atıyorum. Yak
 ## Gün 4
 * Genre service işlemlerini yazdım
 * Şu zamana kadar ben yazdığın kodları ViewModel klasörümü business layer iinde tutuyordum. Bu projede Presentation katmanında tutma kararını aldım. Bence daha geliştirilebilir oldu diyebilirim.
+
+## Gün 5
+* Custom exception Middleware yapısı projeme entegre ettim. Hata mesajları konsola veya  kullanıcıya nasıl gösterilmeli kararını halen daha vermiş değilim. Şuanda string olarak birleştirdiğim hataları json'a çevirip gönderiyorum. Sanırım ilerleyen günlerde  refactor yapmam gerekecek.
