@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z+SWBDDUSfqchkAfIqEUUwKcRnMdONkiJ94iFsau0o9vB3rV/7BOTsbQffX1Jf73AIjjF2Rs3Hr5YHCB9JZ3Cg==",
+  "dgSpecHash": "aHA5WLCezoGFrpYMLFzMMabWbgI+92aQtX8Ln+ApVUl3PPuBATmMksRpiUYrPeR/JTzUYAvObEajOO+n8fc1bQ==",
   "success": true,
-  "projectFilePath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\MovieStore\\Infrastructure\\Persistence\\Persistence.csproj",
+  "projectFilePath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Arda\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Arda\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
