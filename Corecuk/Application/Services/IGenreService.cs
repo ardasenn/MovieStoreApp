@@ -12,6 +12,7 @@ namespace Application.Services
     {
         Task<CreateGenreResponse> CreateGenre(CreateGenreDTO model);
         Task<UpdateGenreResponse> UpdateGenre(UpdateGenreDTO model);
+        Task<DeleteGenreResponse> DeleteGenre(DeleteGenreDTO model);
         List<Genre> GetAll();
     }
 }

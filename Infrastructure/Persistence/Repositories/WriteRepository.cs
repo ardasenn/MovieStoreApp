@@ -34,8 +34,9 @@ namespace Persistence.Repositories
 
         public bool Remove(T entity)
         {
-            EntityEntry<T> entityEntry = Table.Remove(entity);
-            return entityEntry.State == EntityState.Deleted;
+            entity.Status = Domain.Enums.Status.Pasive;
+            entity.DeleteDate = DateTime.Now;           
+           return Update(entity);
         }
 
         public async Task<bool> RemoveAsync(string id)
@@ -54,6 +55,7 @@ namespace Persistence.Repositories
 
         public bool Update(T entity)
         {
+            entity.UpdateDate = DateTime.Now;
             EntityEntry<T> entityEntry = Table.Update(entity);
             return entityEntry.State == EntityState.Modified;
         }

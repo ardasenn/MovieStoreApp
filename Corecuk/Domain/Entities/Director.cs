@@ -18,10 +18,10 @@ namespace Domain.Entities
         public string LastName { get; set; }
         public List<Movie> Movies { get; set; }
         public Guid Id { get; set; }
-        public DateTime CreationDate { get; set; }
+        public DateTime CreationDate { get; set; }=DateTime.Now;
         public DateTime? UpdateDate { get; set; }
         public DateTime? DeleteDate { get; set; }
-        public Status Status { get; set; }
+        public Status Status { get; set; }=Status.Active;
         public Actor Actor { get; set; }
     }
 }
