@@ -16,7 +16,7 @@ namespace Application.DTOs.ActorDTOs
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public List<Movie> Movies { get; set; }
-        public Director Actor { get; set; }
+        public Director Director { get; set; }
     }
     public class CreateActorResponse
     {

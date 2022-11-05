@@ -24,7 +24,7 @@ namespace Persistence.Mapping
             CreateMap<UpdateDirectorDTO, Director>();
             CreateMap<CreateActorDTO, Actor>();
             CreateMap<UpdateActorDTO, Actor>();
-
+            CreateMap<CreateDirectorDTO, CreateActorDTO>();
         }
     }
 }
