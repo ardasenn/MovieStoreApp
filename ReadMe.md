@@ -41,3 +41,7 @@ Bugün gün olarak 27/10/2022 tarihinde gece vaktinde ilk commiti atıyorum. Yak
 
 ## Gün 5
 * Custom exception Middleware yapısı projeme entegre ettim. Hata mesajları konsola veya  kullanıcıya nasıl gösterilmeli kararını halen daha vermiş değilim. Şuanda string olarak birleştirdiğim hataları json'a çevirip gönderiyorum. Sanırım ilerleyen günlerde  refactor yapmam gerekecek.
+
+## Gün 6
+* Actor ve Director arasındaki ilişkinin one to one olması CRUD operasyonlarda iş kararları almamı gerektirdi. Director dependent şekilde kurguladım.
+* Database'den veri silisi olmayacak statülerini pasifize ettim.
