@@ -1,7 +1,9 @@
 ﻿using Application.DTOs.ActorDTOs;
+using Application.DTOs.CommentDTOs;
 using Application.DTOs.CustomerDTOs;
 using Application.DTOs.DirectorDTOs;
 using Application.DTOs.GenreDTOs;
+using Application.DTOs.MovieDTOs;
 using AutoMapper;
 using Domain.Entities;
 using System;
@@ -25,6 +27,10 @@ namespace Persistence.Mapping
             CreateMap<CreateActorDTO, Actor>();
             CreateMap<UpdateActorDTO, Actor>();
             CreateMap<CreateDirectorDTO, CreateActorDTO>();
+            CreateMap<CreateMovieDTO,Movie>();
+            CreateMap<UpdateMovieDTO, Movie>();
+            CreateMap<CreateCommentDTO, Comment>();
+            CreateMap<UpdateCommentDTO, Comment>();
         }
     }
 }

@@ -78,7 +78,7 @@ namespace Persistence.ConcreteServices.DirectorService
         }
         public async Task<UpdateDirectorResponse> UpdateDirector(UpdateDirectorDTO model)
         {
-            var director = await readRepository.GetByIdAsync(model.Id.ToString());
+            var director = await readRepository.GetByIdAsync(model.Id);
             UpdateDirectorResponse response = new();
             if (director == null)
             {

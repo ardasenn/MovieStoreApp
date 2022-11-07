@@ -11,7 +11,6 @@
   <ItemGroup>
     <Folder Include="ConcreteServices\DirectorService\" />
     <Folder Include="ConcreteServices\MovieService\" />
-    <Folder Include="ConcreteServices\CommentService\" />
     <Folder Include="ConcreteServices\OrderService\" />
   </ItemGroup>
 

@@ -8,7 +8,7 @@ namespace Application.DTOs.ActorDTOs
 {
     public class DeleteActorDTO
     {
-        public Guid Id { get; set; }
+        public string Id { get; set; }
     }
     public class DeleteActorResponse
     {

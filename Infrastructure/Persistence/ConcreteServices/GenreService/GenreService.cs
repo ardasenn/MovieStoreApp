@@ -51,7 +51,7 @@ namespace Persistence.ConcreteServices.GenreService
 
         public async Task<UpdateGenreResponse> UpdateGenre(UpdateGenreDTO model)
         {
-            var genre = await readRepository.GetByIdAsync(model.Id.ToString());
+            var genre = await readRepository.GetByIdAsync(model.Id);
             UpdateGenreResponse response = new();
             if (genre == null)
             {

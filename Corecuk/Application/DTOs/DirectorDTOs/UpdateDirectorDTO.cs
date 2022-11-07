@@ -13,7 +13,7 @@ namespace Application.DTOs.DirectorDTOs
         {
             Movies = new List<Movie>();
         }
-        public Guid Id { get; set; }
+        public string Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public List<Movie> Movies { get; set; }

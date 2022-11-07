@@ -83,7 +83,7 @@ namespace Persistence.ConcreteServices.ActorService
         }
         public async Task<DeleteActorResponse> DeleteActor(DeleteActorDTO model)
         {
-            var actor = await readRepository.GetByIdAsync(model.Id.ToString());
+            var actor = await readRepository.GetByIdAsync(model.Id);
             DeleteActorResponse response = new();
             if (actor == null)
             {

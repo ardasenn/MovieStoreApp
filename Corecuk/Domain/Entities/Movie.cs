@@ -27,10 +27,10 @@ namespace Domain.Entities
         public decimal Price { get; set; }
         public double Imdb { get; set; }
         public Guid Id { get; set; }
-        public DateTime CreationDate {get;set;}
+        public DateTime CreationDate {get;set;} = DateTime.Now;
         public DateTime? UpdateDate {get;set;}
         public DateTime? DeleteDate {get;set;}
-        public Status Status {get;set;}
+        public Status Status { get; set; } = Status.Active;
         public int SalesQuantity { get; set; }
     }
 }
