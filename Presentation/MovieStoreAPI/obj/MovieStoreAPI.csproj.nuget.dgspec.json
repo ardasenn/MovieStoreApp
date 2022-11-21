@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Presentation\\MovieStoreAPI\\MovieStoreAPI.csproj": {}
+    "C:\\Users\\Arda\\Desktop\\Movie\\Presentation\\MovieStoreAPI\\MovieStoreAPI.csproj": {}
   },
   "projects": {
-    "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj": {
+    "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Arda\\.nuget\\packages\\",
-        "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\obj\\",
+        "outputPath": "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj"
+              "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Domain\\Domain.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj": {
+    "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\Arda\\.nuget\\packages\\",
-        "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -128,14 +128,14 @@
         }
       }
     },
-    "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Arda\\.nuget\\packages\\",
-        "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -152,8 +152,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj": {
-                "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj"
+              "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Application\\Application.csproj"
               }
             }
           }
@@ -187,14 +187,14 @@
         }
       }
     },
-    "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\Arda\\.nuget\\packages\\",
-        "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -211,8 +211,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj": {
-                "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Corecuk\\Application\\Application.csproj"
+              "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\Arda\\Desktop\\Movie\\Core\\Application\\Application.csproj"
               }
             }
           }
@@ -256,14 +256,14 @@
         }
       }
     },
-    "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Presentation\\MovieStoreAPI\\MovieStoreAPI.csproj": {
+    "C:\\Users\\Arda\\Desktop\\Movie\\Presentation\\MovieStoreAPI\\MovieStoreAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Presentation\\MovieStoreAPI\\MovieStoreAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Arda\\Desktop\\Movie\\Presentation\\MovieStoreAPI\\MovieStoreAPI.csproj",
         "projectName": "MovieStoreAPI",
-        "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Presentation\\MovieStoreAPI\\MovieStoreAPI.csproj",
+        "projectPath": "C:\\Users\\Arda\\Desktop\\Movie\\Presentation\\MovieStoreAPI\\MovieStoreAPI.csproj",
         "packagesPath": "C:\\Users\\Arda\\.nuget\\packages\\",
-        "outputPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Presentation\\MovieStoreAPI\\obj\\",
+        "outputPath": "C:\\Users\\Arda\\Desktop\\Movie\\Presentation\\MovieStoreAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Arda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -280,11 +280,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Infrastructure\\Infrastructure.csproj"
               },
-              "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\ARDA D\\Arda\\YAZILIM\\MyProjects\\Movie\\Infrastructure\\Persistence\\Persistence.csproj"
+              "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\Arda\\Desktop\\Movie\\Infrastructure\\Persistence\\Persistence.csproj"
               }
             }
           }

@@ -5,9 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7CCE6F4A-C93E-4E0C-B11B-0A01EA9EDC32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Corecuk\Domain\Domain.csproj", "{CFBD4FB9-250A-48EA-981E-D7A7CC25809E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Core\Domain\Domain.csproj", "{CFBD4FB9-250A-48EA-981E-D7A7CC25809E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Corecuk\Application\Application.csproj", "{70BAC001-B7E0-4B10-B006-4F15F63BDA0D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Core\Application\Application.csproj", "{70BAC001-B7E0-4B10-B006-4F15F63BDA0D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{13F84B73-E900-4A8E-BCFE-A06797F5FBCA}"
 EndProject
